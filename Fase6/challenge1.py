@@ -1,0 +1,10 @@
+input = input("Write something: ")
+
+print("The type is {}".format(type(input)))
+print("Is it a space? {}".format(input.isspace()))
+print("Is it a number? {}".format(input.isnumeric()))
+print("Is it alphabetic? {}".format(input.isalpha()))
+print("Is it alphanumeric? {}".format(input.isalnum()))
+print("Is it in uppercase? {}".format(input.isupper()))
+print("Is it in lowercase? {}".format(input.islower()))
+print("Is it in capitalize? {}".format(input.istitle()))
