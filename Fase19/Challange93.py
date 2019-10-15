@@ -1,6 +1,6 @@
 data = {}
 data['name'] = str(input('Player name: '))
-matches = int(input('Matches played: '))
+matches = int(input(f'Matches {data["name"]} played: '))
 goals = []
 for m in range(0, matches):
     goal = int(input(f'How many goals in the match {m}?'))

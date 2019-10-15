@@ -2,7 +2,12 @@ student = {}
 
 student['name'] = str(input('Name: '))
 student['avg'] = float(input('Average: '))
-
-print(f'The name is {student["name"]}')
-print(f'The average is {student["avg"]}')
-print(f'The student is approved' if student["avg"] >= 7 else 'The student is disapproved')
+if student['avg'] >= 7:
+    student['status'] = 'approved'
+elif 5 <= student['avg'] < 7:
+    student['status'] = 'recuperation'
+else:
+    student['status'] = 'disapproved'
+print('-=' * 30)
+for k, v in student.items():
+    print(f'The {k} is {v}')

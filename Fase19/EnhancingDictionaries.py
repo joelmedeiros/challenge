@@ -34,6 +34,6 @@ while True:
                 print(f'On the match {k}, made {goal} goals.')
             print('-'*46)
 
-    # print('ERROR: Player not found! Try again')
+    print('ERROR: Player not found! Try again')
 
 print('Done')
