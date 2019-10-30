@@ -1,9 +1,8 @@
 def readOnlyInt(message):
     number = str(input(message))
     while number.isdigit() == False:
-        print('ERROR! Write a valid integer.')
+        print('\033[0;31mERROR! Write a valid integer.\033[m')
         number = str(input(message))
-
     return number
 
 
