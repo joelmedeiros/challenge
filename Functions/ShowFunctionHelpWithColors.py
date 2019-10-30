@@ -20,6 +20,7 @@ def myHelp(functionName):
     title(f'Accessing manual of {functionName}', 6)
     help(functionName)
 
+
 while True:
     title('Help system', 1)
     functionName = str(input('Write the library or function name >'))
